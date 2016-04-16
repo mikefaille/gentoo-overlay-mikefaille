@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<layman>
+  <overlay
+    type = "git"
+    src  = "https://github.com/mikefaille/gentoo-overlay-mikefaille.git"
+    contact = "michael@faille.io"
+    status = "unofficial"
+    name = "gentoo-mikefaille">
+
+    <description>
+      Gentoo personnal overlay to bootstrap my own system.
+    </description>
+  </overlay>
+</layman>
