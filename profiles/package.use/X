@@ -1,0 +1,3 @@
+X11-base/xorg-serveX dri3 d3d9 gallium  xorg xephyr	glamor udev
+
+media-libs/mesa  -vaapi xa xvmc  nptl  d3d9 vdpau openmax llvm

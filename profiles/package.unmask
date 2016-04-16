@@ -1,0 +1,44 @@
+# required by media-libs/mesa-11.2.0::gentoo[llvm]
+# required by dev-qt/qtgui-4.8.7::gentoo[egl]
+# required by dev-qt/qtcore-4.8.7-r1::gentoo[qt3support]
+# required by dev-util/cmake-3.5.1::gentoo[qt4]
+# required by app-text/poppler-0.32.0::gentoo
+# required by net-print/cups-filters-1.8.3::gentoo
+# required by net-print/cups-2.1.3-r1::gentoo
+# required by net-print/cups:0 (argument)
+# /etc/portage/package.mask/llvm:
+>sys-devel/llvm-3.9.0
+
+
+# required by virtual/perl-libnet-3.50.0::gentoo
+# required by dev-perl/Net-SMTP-SSL-1.30.0::gentoo
+# required by dev-vcs/git-2.8.1::gentoo[perl]
+# required by app-portage/layman-2.3.0-r1::gentoo[git]
+# required by @selected
+# required by @world (argument)
+# /etc/portage/package.mask/perl:
+=dev-lang/perl-5.22.1
+# required by dev-perl/Module-Build-0.421.600::gentoo
+# required by dev-perl/File-DesktopEntry-0.40.0-r1::gentoo
+# required by dev-perl/File-MimeInfo-0.270.0::gentoo
+# required by @__auto_slot_operator_replace_installed__ (argument)
+# /etc/portage/package.mask/perl:
+=virtual/perl-File-Spec-3.560.0
+# required by dev-perl/Module-Build-0.421.600::gentoo
+# required by dev-perl/File-DesktopEntry-0.40.0-r1::gentoo
+# required by dev-perl/File-MimeInfo-0.270.0::gentoo
+# required by @__auto_slot_operator_replace_installed__ (argument)
+# /etc/portage/package.mask/perl:
+=virtual/perl-Test-Harness-3.350.0
+# required by dev-vcs/git-2.8.1::gentoo[perl]
+# required by app-portage/layman-2.3.0-r1::gentoo[git]
+# required by @selected
+# required by @world (argument)
+# /etc/portage/package.mask/perl
+# required by @__auto_slot_operator_replace_installed__ (argument)
+# /etc/portage/package.mask/perl:
+=dev-perl/Authen-SASL-2.160.0-r1
+
+>=www-client/firefox-bin-45.0.1
+
+<=dev-java/icedtea-bin-4

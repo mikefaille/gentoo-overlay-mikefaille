@@ -1,0 +1,31 @@
+# These settings were set by the catalyst build script that automatically
+# built this stage.
+# Please consult /usr/share/portage/config/make.conf.example for a more
+# detailed example.
+CPU_FLAGS_X86="${CPU_FLAGS_X86} mmx sse sse2 sse3 ssse3"
+
+#http://en.librehat.com/blog/build-gcc-5-dot-2-on-rhel-6/
+CFLAGS="-O2 -pipe  -D_GLIBCXX_USE_CXX11_ABI=0 -D_GNU_SOURCE"
+CXXFLAGS="${CFLAGS}"
+# WARNING: Changing your CHOST is not something that should be done lightly.
+# Please consult http://www.gentoo.org/doc/en/change-chost.xml before changing.
+CHOST="x86_64-pc-linux-gnu"
+# These are the USE flags that were used in addition to what is provided by the
+# profile used for building.
+
+# uvm c'est pour nvidia
+#USE="bindist mmx sse sse2 libkms xa abi_x86_32 btrfs uvm fedora X dri3 networkmanager smartcard egl opengl webgl dev-python/pypy3-bin"
+USE="${USE} bindist libkms xa abi_x86_32 btrfs uvm fedora X dri3 networkmanager smartcard egl opengl webgl cxx -qt4 vaapi emacs speex opus"
+
+INPUT_DEVICES="libinput"
+
+VIDEO_CARDS="nvidia nouveau"
+
+ACCEPT_KEYWORDS="~amd64"
+
+ABI_X86="64"
+
+PYTHON_SINGLE_TARGET="python3_5 pypy python3_4"
+#PYTHON_TARGETS="python3_5 python2_7 pypy"
+PYTHON_TARGETS="python3_5 python2_7 python3_4 pypy"
+REQUIRED_USE="python_targets_python3_5"

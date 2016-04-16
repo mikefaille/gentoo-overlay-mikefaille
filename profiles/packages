@@ -1,0 +1,6 @@
+app-editors/emacs
+games-util/steam-client-meta
+app-office/libreoffice-bin
+www-client/firefox-bin
+-*sys-apps/openrc
+sys-apps/microcode-ctl

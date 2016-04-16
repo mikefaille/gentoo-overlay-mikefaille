@@ -1,0 +1,8 @@
+# required by dev-python/pypy-5.0.0::gentoo
+# required by virtual/pypy-5.0.0::gentoo
+# required by dev-python/chardet-2.3.0::gentoo[python_targets_pypy]
+# required by dev-python/requests-2.9.1-r2::gentoo
+# required by dev-python/ssl-fetch-0.4::gentoo
+# required by app-portage/mirrorselect-2.2.2-r2::gentoo
+dev-libs/openssl -bindist
+net-misc/openssh -bindist
